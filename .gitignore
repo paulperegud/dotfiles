@@ -4,3 +4,4 @@ zsh/.zprezto
 mpd/.config/mpd/mpd.log
 ncmpcpp/.ncmpcpp/error.log
 *~
+/xmonad/.xmonad/

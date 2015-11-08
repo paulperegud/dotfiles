@@ -21,6 +21,12 @@ checkout =
     cd .zprezto
     git remote add upstream https://github.com/sorin-ionescu/prezto.git
 
+[dotfiles/xmonad/.xmonad]
+checkout =
+    git clone 'git@github.com:gleber/xmonad-config.git' '.xmonad' --recursive
+    cd xmonad-config
+    git remote add upstream https://github.com/vicfryzel/xmonad-config.git
+
 [dotfiles/awesome/.config/awesome]
 checkout = git clone 'git@github.com:gleber/awesome-config.git' 'awesome' --recursive
 

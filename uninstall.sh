@@ -21,6 +21,7 @@ rrunstow git
 rrunstow zsh
 rrunstow bin
 rrunstow myrepos
+rrunstow xmonad
 
 nixuninstall emacs
 nixuninstall parcellite

@@ -76,6 +76,16 @@ if exists X; then
     rrstow awesome
     rrstow xinit
 fi
+
+# TODO: switch to Xmonad
+if exists X; then
+    nixinstall stalonetray
+    nixinstall scrot
+    nixinstall dmenu
+    nixinstall yeganesh haskellPackages.yeganesh
+    nixinstall xmobar haskellPackages.xmobar
+    nixinstall xmonad xmonad-with-packages
+    rrstow xmonad
 fi
 
 nixinstall emacs
