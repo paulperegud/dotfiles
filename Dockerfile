@@ -8,16 +8,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     bzip2 \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN adduser --disabled-password --gecos '' gleber 
+RUN adduser --disabled-password --gecos '' pawel
 
 # Nix requires ownership of /nix.
-RUN mkdir -m 0755 /nix && chown gleber /nix
+RUN mkdir -m 0755 /nix && chown pawel /nix
 
-# Change docker user to gleber
-USER gleber
+# Change docker user to pawel
+USER pawel
 
 # Set some environment variables for Docker and Nix
-ENV USER gleber
+ENV USER pawel
 
 # Change our working directory to $HOME
-WORKDIR /home/gleber
+WORKDIR /home/pawel

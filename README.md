@@ -1,8 +1,8 @@
 # Dotfiles
 
-[![Build Status](https://travis-ci.org/gleber/dotfiles.svg?branch=master)](https://travis-ci.org/gleber/dotfiles)
+[![Build Status](https://travis-ci.org/paulperegud/dotfiles.svg?branch=master)](https://travis-ci.org/paulperegud/dotfiles)
 
-This is gleber's dotfiles. It tries to provide both semi-permanent configuration
+This is paulperegud's dotfiles. It tries to provide both semi-permanent configuration
 and semi-permanent application versions. It supplies `install.sh` script, which
 sets up most apps and configs using Nix, Stow and myrepos. This config makes use
 of gpg encryption to store some sensitive information in the public github. For
@@ -13,7 +13,7 @@ It was originally inspired by xero's dotfiles.
 ## Installation
 
 ```sh
-git clone https://github.com/gleber/dotfiles.git $HOME/dotfiles
+git clone https://github.com/paulperegud/dotfiles.git $HOME/dotfiles
 $HOME/dotfiles/install.sh
 ```
 

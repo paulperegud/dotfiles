@@ -31,8 +31,8 @@ touch $KEYS
 chmod 0600 $KEYS
 
 (
-    echo "\n# Further keys are taken from github.com/gleber.keys on $(date)"
-    curl https://github.com/gleber.keys | grep -v -x -f $KEYS || true
+    echo "\n# Further keys are taken from github.com/paulperegud.keys on $(date)"
+    curl https://github.com/paulperegud.keys | grep -v -x -f $KEYS || true
 ) >> $HOME/.ssh/authorized_keys
 
 nixinstall git gitAndTools.gitFull
