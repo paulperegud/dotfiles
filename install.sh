@@ -85,13 +85,7 @@ fi
 # Configure my windowing environment
 
 if exists X; then
-    nixinstall compton
-    rrstow compton
-    rrstow xmodmap
-    nixinstall parcellite
-    rrstow parcellite
     nixinstall xwininfo byzanz
-    rrstow awesome
     rrstow xinit
 fi
 

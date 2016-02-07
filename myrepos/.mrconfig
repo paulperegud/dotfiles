@@ -25,6 +25,3 @@ checkout =
     cd .zprezto
     git remote add upstream https://github.com/sorin-ionescu/prezto.git
 
-[dotfiles/awesome/.config/awesome]
-checkout = git clone 'git@github.com:gleber/awesome-config.git' 'awesome' --recursive
-
