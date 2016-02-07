@@ -15,9 +15,9 @@ git_updiff = git remote update upstream &&
 
 [dotfiles/emacs/.emacs.d]
 checkout =
-    git clone 'git@github.com:gleber/spacemacs.git' '.emacs.d' --recursive
+    git clone 'git@github.com:paulperegud/prelude.git' '.emacs.d' --recursive
     cd .emacs.d
-    git remote add upstream https://github.com/syl20bnr/spacemacs.git
+    git remote add upstream https://github.com/bbatsov/prelude.git
 
 [dotfiles/zsh/.zprezto]
 checkout =
