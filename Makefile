@@ -10,3 +10,6 @@ test:
 		./install.sh &&                                                         \
 		. $$HOME/.nix-profile/etc/profile.d/nix.sh &&                           \
 		./uninstall.sh"
+
+shell:
+	docker run -t -i paulperegud:dotfiles
