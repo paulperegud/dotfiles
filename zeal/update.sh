@@ -23,7 +23,7 @@ for n in $LIST; do
         continue
     fi
     echo $n
-    wget http://sanfrancisco.kapeli.com/feeds/${nn}.tgz
+    curl http://sanfrancisco.kapeli.com/feeds/${nn}.tgz -o ${nn}.tgz
     tar xfz ${nn}.tgz
     rm ${nn}.tgz
 done
