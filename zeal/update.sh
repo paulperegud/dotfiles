@@ -6,7 +6,7 @@ cd .docsets
 
 local -a BASE_LIST
 
-BASE_LIST=(Bash C++ Elixir "Emacs Lisp" Erlang Haskell "Python 2" "Python 3")
+BASE_LIST=(Bash C++ Elixir "Emacs Lisp" Erlang Haskell "Python 2" "Python 3" "Django")
 CURRENT_LIST=("${(f)$(ls -1d *.docset | sed 's#\.docset##g')}")
 
 LIST=( $BASE_LIST $CURRENT_LIST )
