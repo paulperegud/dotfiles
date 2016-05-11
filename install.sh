@@ -7,7 +7,6 @@ set -eu
 
 . ${DIR}/common.sh
 
-require zsh
 require curl
 
 if [ ! -d /nix/store ] || [ ! -e $HOME/.nix-profile ] || [ ! -e $HOME/.nix-channels ]; then
@@ -46,7 +45,6 @@ hash -r
 
 # Config basics
 
-rrstow zsh
 rrstow git
 rrstow bin
 

@@ -21,7 +21,7 @@ Installer assumes the following:
 
 * either Ubuntu or NixOs
 * Posix-compatible shell
-* installed zsh, curl, ssh and bzcat
+* installed curl, ssh and bzcat
 
 ## Testing
 
@@ -43,7 +43,6 @@ Currently it installs configuration for:
 * awesome
 * compton
 * myrepos (to manage dotfile dependencies)
-* zsh
 * git
 * zile
 * xmodmap (maps CapsLock to Control)

@@ -1,15 +1,12 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 set -eu
 
 cd .docsets
 
-local -a BASE_LIST
+BASE_LIST=(Bash C++ Elixir "Emacs Lisp" Erlang Haskell "Python 2" "Python 3" "Django" Rust)
 
-BASE_LIST=(Bash C++ Elixir "Emacs Lisp" Erlang Haskell "Python 2" "Python 3" "Django")
-CURRENT_LIST=("${(f)$(ls -1d *.docset | sed 's#\.docset##g')}")
-
-LIST=( $BASE_LIST $CURRENT_LIST )
+LIST=( $BASE_LIST )
 
 for i in $LIST; do
     echo "LIST>" $i "<"

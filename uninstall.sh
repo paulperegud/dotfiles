@@ -27,7 +27,6 @@ rrunstow compton
 rrunstow themes
 rrunstow zile
 rrunstow git
-rrunstow zsh
 rrunstow bin
 rrunstow myrepos
 
